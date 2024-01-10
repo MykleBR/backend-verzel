@@ -7,3 +7,9 @@ class VeiculoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Veiculo
         fields = ('id', 'nome', 'marca', 'modelo', 'foto')
+
+
+
+
+
+
