@@ -58,8 +58,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Ou o endereço do seu front-end Flutter
-    "http://10.0.2.2"  # Adicionando o esquema http:// ao endereço
+    "http://localhost:3000",  #  front-end Flutter
+    "http://10.0.2.2"  # Adicionando o esquema http://
 ]
 
 REST_FRAMEWORK = {
