@@ -90,6 +90,17 @@ TEMPLATES = [
     },
 ]
 
+# Swagger settings
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'Bearer': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header',
+        },
+    },
+}
+
 WSGI_APPLICATION = 'car_inventory.wsgi.application'
 
 

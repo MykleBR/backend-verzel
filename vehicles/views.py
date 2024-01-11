@@ -25,5 +25,3 @@ class VeiculoRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
             return [permissions.IsAdminUser()]  
         else:
             return [permissions.AllowAny()] 
-
-
