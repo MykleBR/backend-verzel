@@ -12,70 +12,64 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 Instalação
 
-    Clone o repositório:
+Clone o repositório:
     
-git clone https://github.com/MykleBR/backend-verzel.git
-cd inventario-carros-api
+    git clone https://github.com/MykleBR/backend-verzel.git
+    
+    cd inventario-carros-api
 
 Crie um ambiente virtual:
 
-bash
-
-python -m venv venv
+    python -m venv venv
 
 Ative o ambiente virtual:
 
-    No Windows:
+No Windows:
 
-
-.\venv\Scripts\activate
+    .\venv\Scripts\activate
 
 No Unix ou MacOS:
-
-bash
 
     source venv/bin/activate
 
 Instale as dependências:
 
-bash
-
     pip install -r requirements.txt
+
+
 
 Executando o Servidor de Desenvolvimento
 
-    Aplique as migrações:
+Aplique as migrações:
 
-    
-
-python manage.py migrate
+    python manage.py migrate
 
 Crie um superusuário para acessar o Django admin:
 
-bash
-
-python manage.py createsuperuser
+    python manage.py createsuperuser
 
 Inicie o servidor de desenvolvimento:
 
-bash
-
     python manage.py runserver
 
-    Acesse o Django admin em http://localhost:8000/admin/ e faça login usando as credenciais do superusuário.
+Acesse o Django admin em:
+    
+    http://localhost:8000/admin/
+    
+faça login usando as credenciais do superusuário.
 
 Documentação da API
 Swagger
 
 Explore a API utilizando a documentação Swagger:
 
-    URL: Documentação Swagger
+    http://localhost:8000/swagger
 
 ReDoc
 
 Alternativamente, visualize a documentação da API com o ReDoc:
 
-    URL: Documentação ReDoc
+    http://localhost:8000/redoc
 
 Estrutura do Projeto
 
