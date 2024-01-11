@@ -13,9 +13,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 Instalação
 
     Clone o repositório:
-
-    bash
-
+    
 git clone https://github.com/MykleBR/backend-verzel.git
 cd inventario-carros-api
 
@@ -29,7 +27,6 @@ Ative o ambiente virtual:
 
     No Windows:
 
-    bash
 
 .\venv\Scripts\activate
 
@@ -49,7 +46,7 @@ Executando o Servidor de Desenvolvimento
 
     Aplique as migrações:
 
-    bash
+    
 
 python manage.py migrate
 
