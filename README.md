@@ -12,6 +12,11 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 Instalação
 
+    no arquivo settings.py é necessario que você faça as configurações da constante DATABASE de acordo com o seu SGBD.
+    
+
+Você precisa criar o schema no seu banco de dados, no meu exemplo eu criei um schema chamado "db_car".
+
 Clone o repositório:
 
     git clone https://github.com/MykleBR/backend-verzel.git
