@@ -12,7 +12,7 @@ schema_view = get_schema_view(
         title="API Loja de Veículos",
         default_version='v1',
         description="Documentação para API da loja de veículos.",
-        terms_of_service="https://github.com/MykleBR",
+        terms_of_service="https://www.4devs.com.br/gerador_de_texto_lorem_ipsum",
         contact=openapi.Contact(email="michafloyd@gmail.com"),
         license=openapi.License(name="Licença gratuita"),
     ),
